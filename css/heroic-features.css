@@ -6,10 +6,10 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-      color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); 
+    color: #fff;
+  	text-align: center;
+  	background-color: #159957;
+  	background-image: linear-gradient(120deg, #155799, #159957); 
 	background-size: 100% auto;
 
 }
@@ -27,19 +27,42 @@ footer {
 }
 
 .thumbnail {
-	
+	background-color: #159957;
+  	background-image: linear-gradient(120deg, #155799, #159957); 
+  	background-size: 100% auto;
 	
 }
-
+.akdev{
+	color: white;
+}
 .jumbothing {
 	opacity: 0.1;
-}
 
+}
+.jumbothing2 {
+	opacity: 0.3;
+}
 .projects{
-	height: 100%;
-	width: 100%;
-}
 
+
+}
+.projectname{
+	color: white;
+}
 #rainsim{
 	background-color: #99ebff;
+}
+
+.thumbnail {
+
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
 }
