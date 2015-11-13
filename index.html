@@ -27,8 +27,8 @@
 
 </head>
 
-<body>
-
+<body onload="init();">
+    <script src="rainsim.js" type="text/javascript" charset="utf-8" async defer></script>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -110,9 +110,11 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <canvas id="rainsim" height="275" width="305"></canvas>
                     <div class="caption">
                         <h3>Rain sim</h3>
+                        
+                        
                         <p></p>
                         <p>
                         </p>
